@@ -1,7 +1,4 @@
 import pandas as pd
 
-
-# pd library has many functions
-# Essentially read_csv, read_html, etcetcetc.. read_xlsx
-
-df = pd.read_excel
+df = pd.read_excel("directories.xlsx")
+df.to_csv("directories.csv")
